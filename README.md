@@ -1,4 +1,4 @@
-# read-each-line-sync
+# read-each-line
 
 Read file line by line, synchronously.
 
