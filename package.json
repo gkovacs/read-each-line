@@ -1,14 +1,14 @@
 {
-  "name": "read-each-line-sync",
+  "name": "read-each-line",
   "version": "1.0.1",
   "description": "Read file line by line, synchronously.",
-  "main": "readEachLineSync.js",
+  "main": "read-each-line.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gkovacs/read-each-line-sync.git"
+    "url": "https://github.com/gkovacs/read-each-line.git"
   },
   "keywords": [
     "read",
@@ -19,7 +19,7 @@
   "author": "Geza Kovacs (http://github.com/gkovacs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gkovacs/read-each-line-sync/issues"
+    "url": "https://github.com/gkovacs/read-each-line/issues"
   },
-  "homepage": "https://github.com/gkovacs/read-each-line-sync"
+  "homepage": "https://github.com/gkovacs/read-each-line"
 }

@@ -4,19 +4,19 @@ Read file line by line, synchronously.
 
 ## Install
 
-    npm install read-each-line-sync
+    npm install read-each-line
 
 ## Example
 
-    var readEachLineSync = require('read-each-line-sync')
+    var readEachLine = require('read-each-line')
     
-    readEachLineSync('test.txt', 'utf8', function(line) {
+    readEachLine('test.txt', 'utf8', function(line) {
       console.log(line)
     })
 
 Encoding can optionally be omitted, in which case it will default to utf8:
 
-    readEachLineSync('test.txt', function(line) {
+    readEachLine('test.txt', function(line) {
       console.log(line)
     })
 

@@ -3,15 +3,15 @@
  * 
  * Example:
  *
- * var readEachLineSync = require('read-each-file-sync')
+ * var readEachLine = require('read-each-line')
  * 
- * readEachLineSync('test.txt', 'utf8', function(line) {
+ * readEachLine('test.txt', 'utf8', function(line) {
  *   console.log(line)
  * })
  *
  * Encoding can optionally be omitted, in which case it will default to utf8:
  *
- * readEachLineSync('test.txt', function(line) {
+ * readEachLine('test.txt', function(line) {
  *   console.log(line)
  * })
  *
@@ -63,7 +63,7 @@ function getLine(buffer) {
  * @param {String} path
  * @param {String} encoding - "optional" encoding in same format as nodejs Buffer
  */
-module.exports = function readEachLineSync(path, encoding, processline) {
+module.exports = function readEachLine(path, encoding, processline) {
 
     if (typeof(encoding) == 'function') { // default to utf8 if encoding not specified
         processline = encoding;
