@@ -8,17 +8,21 @@ Read file line by line, synchronously.
 
 ## Example
 
-    var readEachLine = require('read-each-line')
-    
-    readEachLine('test.txt', 'utf8', function(line) {
-      console.log(line)
-    })
+```javascript
+var readEachLine = require('read-each-line')
+
+readEachLine('test.txt', 'utf8', function(line) {
+  console.log(line)
+})
+```
 
 Encoding can optionally be omitted, in which case it will default to utf8:
 
-    readEachLine('test.txt', function(line) {
-      console.log(line)
-    })
+```javascript
+readEachLine('test.txt', function(line) {
+  console.log(line)
+})
+```
 
 ## Credits
 
