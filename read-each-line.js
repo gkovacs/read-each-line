@@ -125,4 +125,6 @@ module.exports = function readEachLine(path, encoding, processline) {
     if ( curBuffer.length ) {
         processline(curBuffer.toString());
     }
+
+    fs.closeSync(fd);
 }
