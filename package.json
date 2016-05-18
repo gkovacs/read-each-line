@@ -1,6 +1,6 @@
 {
   "name": "read-each-line",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Read file line by line, synchronously.",
   "main": "read-each-line.js",
   "scripts": {
